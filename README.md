@@ -15,6 +15,7 @@ Step by step :
 - Upload Program arduino : ArduinoToNodeMCU.ino
 
 - Tampilan Serial Monitor
+
 ![SERMON DHT](https://github.com/fauzanmn/Komunikasi-Serial-Arduino-Node-MCU-ESP8266-Output-Bot-Telegram/assets/100438762/a68068da-3c2c-4339-88ff-47c759880147)
 
 72.00 = nilai kelembapan
