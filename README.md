@@ -1,7 +1,7 @@
 # Komunikasi Serial Arduino Node MCU ESP8266 Output Bot Telegram
 Menjelaskan tentang bagaimana cara Komunikasi Serial antara Arduino dengan Node MCU ESP8266 dengan output ditampilkan pada Bot Telegram (Output dapat ditampilkan pada platform IoT yang lain, seperti Thingspeak, Blynk, Thinker.io dsb). 
 
-Assalamualaikum Warahmatullah Wabarakatu
+Assalamualaikum Warahmatullah Wabarakatu.
 Alhamdulillah masih diberikan umur dan kesempatan untuk berbagi ilmu.
 
 Step by step :
@@ -18,8 +18,8 @@ Step by step :
 
 ![SERMON DHT](https://github.com/fauzanmn/Komunikasi-Serial-Arduino-Node-MCU-ESP8266-Output-Bot-Telegram/assets/100438762/a68068da-3c2c-4339-88ff-47c759880147)
 
-72.00 = nilai kelembapan
-31.40 = nilai suhu
+72.00 = nilai kelembapan.
+31.40 = nilai suhu.
 
 Data tersebut yang nantinya akan kita parsing dan ditampilkan melalui Serial Mpnitor Node MCU ESP8266
 
