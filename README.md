@@ -16,8 +16,10 @@ Step by step :
 
 - Tampilan Serial Monitor
 ![SERMON DHT](https://github.com/fauzanmn/Komunikasi-Serial-Arduino-Node-MCU-ESP8266-Output-Bot-Telegram/assets/100438762/a68068da-3c2c-4339-88ff-47c759880147)
-#72.00 = nilai kelembapan
-#31.40 = nilai suhu
+
+72.00 = nilai kelembapan
+31.40 = nilai suhu
+
 Data tersebut yang nantinya akan kita parsing dan ditampilkan melalui Serial Mpnitor Node MCU ESP8266
 
 # Rangkaian Komunikasi Serial Arduino Mega ke Node MCU ESP8266
