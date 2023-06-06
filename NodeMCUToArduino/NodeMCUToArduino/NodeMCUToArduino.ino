@@ -63,7 +63,7 @@ void loop() {
         if (msg.text.equalsIgnoreCase("/start")) {  //Terima pesan dengan perintah /start dari user
           String reply;
           // **** Membuat format balas pesan /start ****//
-          reply = (String)"Selamat Datang " + msg.sender.username + (String)".\n\n==================================================\n\nBot monitoring tegangan dan arus aki adalah sebuah program yang dirancang untuk mengumpulkan, menganalisis, dan melaporkan data tegangan dan arus aki secara real-time.\n\nBot Telegram ini merupakan Bot Monitoring Tegangan dan Arus (Montegar) pada Aki Baterai Portable AWOS Kategori II.\n\nGunakan perintah /Cek untuk monitoring tegangan dan arus pada Aki Baterai Portable AWOS Kategori II .\n\nGood Luck Brodiii.\n\n Tugas Akhir Andhika INS C.\n\n ==================================================";
+          reply = (String)"Selamat Datang " + msg.sender.username + (String)".\n\n==================================================\n\nBot monitoring tegangan dan arus aki adalah sebuah program yang dirancang monitoring data tegangan dan arus aki secara real-time.\n\nBot Telegram ini merupakan Bot Monitoring Tegangan dan Arus pada Aki Baterai Portable AWOS Kategori II.\n\nGunakan perintah /Cek untuk monitoring tegangan dan arus pada Aki Baterai Portable AWOS Kategori II .\\n\n  ==================================================";
           myBot.sendMessage(msg.sender.id, reply); //Kirim pesan ke Bot Telegram
         }
         else if (msg.text.equalsIgnoreCase("/Cek")) { //Terima pesan dengan perintah /start dari user
@@ -82,7 +82,7 @@ void loop() {
     if (suhu > 31) {
       String darurat;
       darurat = (String)"PERINGATAN!!!\nStatus : Suhu terlalu panas. \nSuhu : " + suhu + (String)" C.";
-      myBot.sendMessage(5379077205, darurat); // 5379077205 adalah ID dari masiing-masing user telegram, ubah sesuai ID anda
+      myBot.sendMessage(5379077205, darurat); // 5379077205 adalah ID dari masing-masing user telegram, ubah sesuai ID anda
       Serial.println("pesan darurat terkirim"); // Tampilkan keterangan pesan darurat telah dikirim ke Serial Monitor
       delay(5000);
     }
