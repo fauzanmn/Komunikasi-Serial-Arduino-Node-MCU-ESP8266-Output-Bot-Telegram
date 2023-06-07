@@ -27,7 +27,7 @@ Komponen yang digunakan untuk contoh pengujian Komunikasi Serial ini antara lain
 72.00 = nilai kelembapan.
 31.40 = nilai suhu.
 
-Data tersebut yang nantinya akan kita parsing dan ditampilkan melalui Serial Mpnitor Node MCU ESP8266
+Data tersebut yang nantinya akan kita parsing dan ditampilkan melalui Serial Monitor Node MCU ESP8266
 
 # Rangkaian Komunikasi Serial Arduino Mega ke Node MCU ESP8266
 ![komser](https://github.com/fauzanmn/Komunikasi-Serial-Arduino-Node-MCU-ESP8266-Output-Platform-IoT/assets/100438762/31639290-0137-4f3f-8abb-4b43686a3a77)
@@ -44,7 +44,8 @@ Catatan :
 
 - Tampilan Serial Monitor Node MCU ESP8266
 
-![IMG_20230607_092514](https://github.com/fauzanmn/Komunikasi-Serial-Arduino-Node-MCU-ESP8266-Output-Platform-IoT/assets/100438762/6d426636-f1a0-4920-ac2f-cbb98ad20a36)
+![IMG_20230607_124828](https://github.com/fauzanmn/Komunikasi-Serial-Arduino-Node-MCU-ESP8266-Output-Platform-IoT/assets/100438762/7870f406-7bd2-40b4-b726-1a98d667003e)
+
 
 
 Jika telah berhasil, maka Serial Monitor Node MCU ESP8266 akan menampilkan Status Koneksi WiFi berhasil, IP Lokal, dan Status Koneksi dengan Bot Telegram berhasil.
