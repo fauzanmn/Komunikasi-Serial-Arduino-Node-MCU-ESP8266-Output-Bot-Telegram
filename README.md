@@ -46,5 +46,10 @@ Catatan :
 
 ![sermon komser](https://github.com/fauzanmn/Komunikasi-Serial-Arduino-Node-MCU-ESP8266-Output-Platform-IoT/assets/100438762/579a7542-ab52-4ac4-9479-b79c0424bf0c)
 
+Jika telah berhasil, maka Serial Monitor Node MCU ESP8266 akan menampilkan Status Koneksi WiFi berhasil, IP Lokal, dan Status Koneksi dengan Bot Telegram berhasil.
+
+Hubungkan kembali pin RX Node MCU ESP8266 yang terhubung ke pin TX Arduino Mega & Bot Telegram telah siap untuk pengujian.
+
+
 
 
