@@ -1,5 +1,5 @@
-# Komunikasi Serial Arduino Node MCU ESP8266 Output Bot Telegram
-Menjelaskan tentang bagaimana cara Komunikasi Serial antara Arduino dengan Node MCU ESP8266 dengan output ditampilkan pada Bot Telegram (Output dapat ditampilkan pada platform IoT yang lain, seperti Thingspeak, Blynk, Thinker.io dsb). 
+# Komunikasi Serial Arduino Node MCU ESP8266 Output Platform IoT
+Menjelaskan tentang bagaimana cara Komunikasi Serial antara Arduino dengan Node MCU ESP8266 dengan output ditampilkan pada Platform IoT (Output dapat ditampilkan pada platform IoT seperti Bot Telegram, Thingspeak, Blynk, Thinker.io dsb). 
 
 Assalamualaikum Warahmatullah Wabarakatu.
 Alhamdulillah masih diberikan umur dan kesempatan untuk berbagi ilmu.
