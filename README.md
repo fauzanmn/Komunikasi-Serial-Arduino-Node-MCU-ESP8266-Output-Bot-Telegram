@@ -44,7 +44,8 @@ Catatan :
 
 - Tampilan Serial Monitor Node MCU ESP8266
 
-![sermon komser](https://github.com/fauzanmn/Komunikasi-Serial-Arduino-Node-MCU-ESP8266-Output-Platform-IoT/assets/100438762/579a7542-ab52-4ac4-9479-b79c0424bf0c)
+![IMG_20230607_092514](https://github.com/fauzanmn/Komunikasi-Serial-Arduino-Node-MCU-ESP8266-Output-Platform-IoT/assets/100438762/6d426636-f1a0-4920-ac2f-cbb98ad20a36)
+
 
 Jika telah berhasil, maka Serial Monitor Node MCU ESP8266 akan menampilkan Status Koneksi WiFi berhasil, IP Lokal, dan Status Koneksi dengan Bot Telegram berhasil.
 
