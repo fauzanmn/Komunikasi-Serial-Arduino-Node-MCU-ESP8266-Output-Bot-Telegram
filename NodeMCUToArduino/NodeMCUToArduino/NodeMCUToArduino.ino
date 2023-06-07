@@ -41,6 +41,7 @@ void loop() {
 
   //***************************** Menunggu Data dari Sensor yang masuk ke Serial Monitor *****************************//
   if (Serial.available() > 0) {
+    Serial.println("Data dari Arduino Mega :");
     String data = Serial.readStringUntil('\n'); // Tampung nilai yang masuk ke Serial Monitor ke dalam variabel 'data'
     Serial.println(data); // Menampilkan data dari sensor yang dikirim melalui Arduino ke Serial Monitor Node MCU ESP8266
     int comma = data.indexOf(','); // Delimiter, pemisah antara data sensor
@@ -63,7 +64,7 @@ void loop() {
         if (msg.text.equalsIgnoreCase("/start")) {  //Terima pesan dengan perintah /start dari user
           String reply;
           // **** Membuat format balas pesan /start ****//
-          reply = (String)"Selamat Datang " + msg.sender.username + (String)".\n\n==================================================\n\nBot monitoring tegangan dan arus aki adalah sebuah program yang dirancang monitoring data tegangan dan arus aki secara real-time.\n\nBot Telegram ini merupakan Bot Monitoring Tegangan dan Arus pada Aki Baterai Portable AWOS Kategori II.\n\nGunakan perintah /Cek untuk monitoring tegangan dan arus pada Aki Baterai Portable AWOS Kategori II .\\n\n  ==================================================";
+          reply = (String)"Selamat Datang " + msg.sender.username + (String)".\n\n==================================================\n\nBot monitoring Suhu dan Kelembapan adalah sebuah program yang dirancang untuk monitoring suhu dan kelembapan secara real-time.\n\n\nGunakan perintah /Cek untuk monitoring suhu dan kelembapan.\\n\n  ==================================================";
           myBot.sendMessage(msg.sender.id, reply); //Kirim pesan ke Bot Telegram
         }
         else if (msg.text.equalsIgnoreCase("/Cek")) { //Terima pesan dengan perintah /start dari user
