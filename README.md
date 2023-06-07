@@ -54,3 +54,4 @@ Hubungkan kembali pin RX Node MCU ESP8266 yang terhubung ke pin TX Arduino Mega 
 
 
 
+"Communication is key."
